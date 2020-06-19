@@ -1,5 +1,4 @@
-[
-  {
+{
   "meals": [
     {
       "id": 1, 
@@ -121,5 +120,4 @@
       "id": 30, 
       "meal": "Filé de pescada com alecrim ao forno; salada de alface americana, agrião, tomate, palmito e gergelim; arroz integral com brócolis; purê de cenoura."
     }]
-  }
-]
+}

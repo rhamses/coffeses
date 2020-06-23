@@ -1,0 +1,49 @@
+body {
+	font-family: 'Hind Siliguri', sans-serif;
+}
+
+header {
+	background-color: #591e0e;
+}
+
+.logo {
+	display: table;
+	margin: 0 auto;
+}
+
+@media all and (min-width: 0) {
+	.cardapios {
+		max-width: 80%;
+	}	
+}
+
+@media all and (min-width: 1024px) {
+	.cardapios {
+		max-width: 50%;
+	}	
+}
+
+.cardapios {
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.cardapios > div {
+	display: flex;
+	text-align: left;
+}
+
+.item--cardapio b {
+	display: inline-block;
+	min-width: 250px;
+	text-align: left;
+}
+
+.rhamses {
+	flex-wrap: wrap;
+}
+
+.amb1 {
+	margin-left: auto;
+	margin-right: auto;
+}

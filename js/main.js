@@ -8,7 +8,7 @@
 		const year = date.getFullYear();
 		let html = '';
 		meals.forEach(meal => {
-			html += `<div class="column is-half"><b class="pr-3">${meal.id}/${month}/${year}</b>${meal.meal}</div>`;
+			html += `<div class="column is-half"><img src="${meal.image}" alt="Imagem da comida"><b class="pr-3">${meal.id}/${month}/${year}</b>${meal.meal}</div>`;
 		});
 
 		cardapios.innerHTML = html;

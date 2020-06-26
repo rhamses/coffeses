@@ -2,122 +2,152 @@
   "meals": [
     {
       "id": 1, 
+      "image": "https://placehold.it/350x180",
       "meal": "Carne seca acebolada; salada de alface, tomate e azeitona preta; arroz integral com brócolis e feijão; couve refogada."
     },
     {
       "id": 2, 
+      "image": "https://placehold.it/350x180",
       "meal": "Bife grelhado; salada de rúcula e tomate; arroz integral, feijão e brócolis refogado com alho."
     },
     {
       "id": 3, 
+      "image": "https://placehold.it/350x180",
       "meal": "Peixe grelhado com molho de mostarda; salada de folhas verdes, beterraba crua e tomate; arroz 7 grãos, grão de bico e chuchu refogado."
     },
     {
       "id": 4, 
+      "image": "https://placehold.it/350x180",
       "meal": "Filé de frango grelhado; salada de folhas verdes e tomate cereja; macarrão integral com molho vermelho e brócolis."
     },
     {
       "id": 5, 
+      "image": "https://placehold.it/350x180",
       "meal": "Omelete com cebola e tomate; salada de folhas verdes, tomate e palmito; arroz integral com brócolis, feijão e couve refogada."
     },
     {
       "id": 6, 
+      "image": "https://placehold.it/350x180",
       "meal": "Rolinho de frango com cenoura e gergelim; salada de alface crespa, agrião, rabanete, pepino, tomate e nozes; arroz integral; feijão e abobrinha no vapor."
     },
     {
       "id": 7, 
+      "image": "https://placehold.it/350x180",
       "meal": "Bacalhau assado com ervas ao forno; salada de alface americana, agrião, lascas de manga e sementes de chia; quinua; aspargos no vapor."
     },
     {
       "id": 8, 
+      "image": "https://placehold.it/350x180",
       "meal": "Bife grelhado com molho de cogumelo; salada de alface crespa, endívia, beterraba, pepino, broto de feijão e tomate cereja; lascas de batata com alho poró; berinjela grelhada."
     },
     {
       "id": 9, 
+      "image": "https://placehold.it/350x180",
       "meal": "Coxa de frango com ervas; salada de alface americana, rúcula, cenoura, tomate e folhas de hortelã; arroz com lentilha; vagem no vapor."
     },
     {
       "id": 10, 
+      "image": "https://placehold.it/350x180",
       "meal": "Linguado ao forno; salada de alface roxa, agrião, palmito pupunha e tomate cereja; arroz integral com espinafre; abóbora assada."
     },
     {
       "id": 11, 
+      "image": "https://placehold.it/350x180",
       "meal": "Atum; salada de folhas verdes, tomate e cenoura ralada; arroz 7 grãos e beterraba cozida."
     },
     {
       "id": 12, 
+      "image": "https://placehold.it/350x180",
       "meal": "Filé de peixe com cenoura e batata; salada de alface com tomate; arroz branco e couve refogada."
     },
     {
       "id": 13, 
+      "image": "https://placehold.it/350x180",
       "meal": "Filé mignon; salada de alface, rúcula e tomate; arroz integral; abobrinha com milho e cenoura no forno."
     },
     {
       "id": 14, 
+      "image": "https://placehold.it/350x180",
       "meal": "Carne moída com abobrinha; salada de agrião com tomate cereja; arroz 7 grãos; cenoura refogada."
     },
     {
       "id": 15, 
+      "image": "https://placehold.it/350x180",
       "meal": "Almôndegas assadas; salada de rúcula com manga e tomate cereja; purê de batata doce; ervilha refogada."
     },
     {
       "id": 16, 
+      "image": "https://placehold.it/350x180",
       "meal": "Picadinho de filé mignon; salada de alface roxa, alface frisée, agrião, figo e tomate cereja; purê de batata doce; chuchu refogado com salsinha."
     },
     {
       "id": 17, 
+      "image": "https://placehold.it/350x180",
       "meal": "Frango grelhado; salada de alface crespa, rúcula, cenoura e beterraba; purê de mandioquinha; brócolis no vapor."
     },
     {
       "id": 18, 
+      "image": "https://placehold.it/350x180",
       "meal": "Filé de pescada com alecrim ao forno; salada de alface americana, agrião, tomate, palmito e gergelim; arroz integral com brócolis; purê de cenoura."
     },
     {
       "id": 19, 
+      "image": "https://placehold.it/350x180",
       "meal": "Omelete com legumes; salada de alface crespa, agrião, repolho roxo e cenoura ralada; arroz 7 cereais."
     },
     {
       "id": 20, 
+      "image": "https://placehold.it/350x180",
       "meal": "Sopa de legumes com frango e batata doce, salada de alface crespa, escarola, pepino, rabanete, grão de bico e hortelã."
     },
     {
       "id": 21, 
+      "image": "https://placehold.it/350x180",
       "meal": "Rolinho de frango com cenoura e gergelim; salada de alface crespa, agrião, rabanete, pepino, tomate e nozes; arroz integral; feijão e abobrinha no vapor."
     },
     {
       "id": 22, 
+      "image": "https://placehold.it/350x180",
       "meal": "Bacalhau assado com ervas ao forno; salada de alface americana, agrião, lascas de manga e sementes de chia; quinua; aspargos no vapor."
     },
     {
       "id": 23, 
+      "image": "https://placehold.it/350x180",
       "meal": "Bife grelhado com molho de cogumelo; salada de alface crespa, endívia, beterraba, pepino, broto de feijão e tomate cereja; lascas de batata com alho poró; berinjela grelhada."
     },
     {
       "id": 24, 
+      "image": "https://placehold.it/350x180",
       "meal": "Coxa de frango com ervas; salada de alface americana, rúcula, cenoura, tomate e folhas de hortelã; arroz com lentilha; vagem no vapor."
     },
     {
       "id": 25, 
+      "image": "https://placehold.it/350x180",
       "meal": "Linguado ao forno; salada de alface roxa, agrião, palmito pupunha e tomate cereja; arroz integral com espinafre; abóbora assada."
     },
     {
       "id": 26, 
+      "image": "https://placehold.it/350x180",
       "meal": "Atum; salada de folhas verdes, tomate e cenoura ralada; arroz 7 grãos e beterraba cozida."
     },
     {
       "id": 27, 
+      "image": "https://placehold.it/350x180",
       "meal": "Almôndegas assadas; salada de rúcula com manga e tomate cereja; purê de batata doce; ervilha refogada."
     },
     {
       "id": 28, 
+      "image": "https://placehold.it/350x180",
       "meal": "Picadinho de filé mignon; salada de alface roxa, alface frisée, agrião, figo e tomate cereja; purê de batata doce; chuchu refogado com salsinha."
     },
     {
       "id": 29, 
+      "image": "https://placehold.it/350x180",
       "meal": "Frango grelhado; salada de alface crespa, rúcula, cenoura e beterraba; purê de mandioquinha; brócolis no vapor."
     },
     {
       "id": 30, 
+      "image": "https://placehold.it/350x180",
       "meal": "Filé de pescada com alecrim ao forno; salada de alface americana, agrião, tomate, palmito e gergelim; arroz integral com brócolis; purê de cenoura."
     }]
 }

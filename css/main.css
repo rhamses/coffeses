@@ -28,7 +28,7 @@ header {
 	margin: 0 auto;
 }
 
-.cardapios > div {
+.cardapios--content {
 	display: flex;
 	text-align: left;
 }

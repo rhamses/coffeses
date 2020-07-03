@@ -1,22 +1,3 @@
-if (navigator.serviceWorker) {
-	navigator.serviceWorker.register('worker.js', {scope: '/'})
-	.then(reg => {
-		if(reg.installing) {
-			console.log("tamo instalando");
-		}
-
-		if(reg.waiting) {
-			console.log("tamo esperando");
-		}
-
-		if(reg.active) {
-			console.log("tamo ativando");
-		}
-
-	})
-	.catch(err => console.log(err));
-}
-
 /*
 	SERVICE WORKER 
  */
@@ -55,4 +36,39 @@ self.addEventListener('fetch', function(event){
 		console.log("ruim", err);
 		// return caches.match('/images/icons/icon-192x192.png')
 	}));
+});
+
+self.addEventListener('notificationclose', function(e){
+	const notification = e.notification;
+	const id = e.notification.data.id;
+});
+
+self.addEventListener('notificationclick', function(e){
+	const notification = e.notification;
+	const action = e.action;
+
+	if (action == 'close'){
+		notification.close();
+	} else {
+		clients.openWindow('http://localhost:8080');
+		notification.close();
+	}
+});
+
+self.addEventListener('push', function(e){
+	console.log();
+	let title = 'Não perca o almoço de hoje';
+	const options = {
+		body: e.data.text(),
+		vibrate: [100, 50, 100],
+		icon: '../images/icons/icon-72x72.png',
+		data: {
+			dateOfArrival: Date.now(),
+			id: 1
+		}
+	};
+
+	e.waitUntil(
+		self.registration.showNotification(title, options)
+	);
 });

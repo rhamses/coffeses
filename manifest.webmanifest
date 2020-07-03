@@ -5,6 +5,7 @@
   "background_color": "#591e0e",
   "display": "standalone",
   "start_url": "/",
+  "gcm_sender_id": "446039157674",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",

@@ -9,7 +9,7 @@
 
 			reg.pushManager.getSubscription().then(sub => {
 				if (sub) {
-					console.log("update db", sub);
+					console.log("update db", JSON.stringify(sub));
 				} else {
 					console.log("not assintante", sub);
 				}
@@ -33,7 +33,8 @@
 		navigator.serviceWorker.ready.then(function(reg) {
 
 			reg.pushManager.subscribe({
-				userVisibleOnly: true
+				userVisibleOnly: true,
+				applicationServerKey: 'BOl2tyYtcWejcUdzA0OZ4JRnl0i_cperjbVuL_mkSoYd92IaKkuEXNQ4qLqmwvTsWUrST8bMM6V7iEBA5niNvjE'
 			}).then(function(sub) {
 				console.log('Endpoint URL: ', sub.endpoint);
 			}).catch(function(e) {
